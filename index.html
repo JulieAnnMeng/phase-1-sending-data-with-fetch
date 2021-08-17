@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Lab</title>
+    <script defer src="index.js"></script>
   </head>
 
   <body>
-    <script src="index.js"></script>
+
+    <h1>User Form</h1>
+    <form action="http://localhost:3000/users" method="POST">
+      <label> name: <input type="text" name="usersName" id="usersName" /></label><br />
+      <label> email: <input type="text" name="usersEmail" id="usersEmail" /></label><br/>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
   </body>
 
 </html>
